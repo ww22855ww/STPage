@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天氣預報</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">供應商列表</a> |
+        <a href="weather.html">天氣預報</a>
+    </nav>
+    <h1>天氣預報 (台北)</h1>
+    <button id="fetch-weather-btn">取得未來 7 天天氣</button>
+    <table id="weather-table">
+        <thead>
+            <tr>
+                <th>日期</th>
+                <th>最高溫 (°C)</th>
+                <th>最低溫 (°C)</th>
+                <th>天氣狀況</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Weather data will be inserted here -->
+        </tbody>
+    </table>
+    <script src="weather.js"></script>
+</body>
+</html>
